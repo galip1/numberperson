@@ -5,13 +5,11 @@ let sumEl = document.getElementById("sum-el");
 let numbers = [];
 let count = 0; //baslangıç değeri
 
-//artış miktarını sayma
 function increment() {
   count += 1;
   countEl.textContent = count;
 }
 
-///artşları kaydetme
 function save() {
   let countStr = count + "-";
   saveEl.textContent += countStr;
